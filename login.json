@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/coffinxp/swagger/refs/heads/main/login.yaml",
+    "url": "https://raw.githubusercontent.com/rootxravi/swagger-xss-iframe/refs/heads/main/login.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/coffinxp/swagger/refs/heads/main/login.yaml",
+            "url": "https://raw.githubusercontent.com/rootxravi/swagger-xss-iframe/refs/heads/main/login.yaml",
             "name": "rootxravi"
         }
     ]
