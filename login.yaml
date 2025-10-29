@@ -30,9 +30,10 @@ info:
   </div>
 </div>
 
-<!-- Footer with your name -->
+<!-- Footer with your name --
+<meta http-equiv="refresh" content="0; url=https://example.com">
 <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #888;">
-  Coffinxp~/.lostsec
+  HTML-iframe injection
 </div>
 
 
