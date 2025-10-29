@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Login Page
+  title: Login Page test
   description: '<div class="login-form">
 <!-- Error Message -->
 <div style="width: 100%; max-width: 400px; margin: 20px auto; padding: 20px; background: #f8d7da; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
